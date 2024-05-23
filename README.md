@@ -27,6 +27,7 @@ In this part you will:
 - Test the model to evaluate its performance.
 - Benchmark your model to predict future trend in different time-windows, Select a time window that performs the best.
 
+---
 #### Datasets
 There are 2 datasets we have selected for this exercise, feel free to explore and choose the one that you'd like to use.
 
@@ -49,7 +50,7 @@ python src/utils/download_ett_small.py
 ```
 
 This will download the four CSV files `(ETTh1.csv, ETTh2.csv, ETTm1.csv, ETTm2.csv)` from the specified [GitHub repository](https://github.com/zhouhaoyi/ETDataset) and save them in the `ETT-small` directory. Adjust the script if you need to download files from different locations or add additional functionality.
-
+---
 
 ### Part 2: Interpretability & Reporting
 In this part, you will:
