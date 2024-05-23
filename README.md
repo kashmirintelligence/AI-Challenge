@@ -82,5 +82,7 @@ You will be assessed on:
 Good luck, and we look forward to seeing your work!
 
 ## Additional support 🤝
-If you have any questions, or need further clarification of any of the challenges. Then please reach out to: 
+If you have any questions, or need further clarification of any of the challenges. 
+
+Then please reach out to: 
 📣 sam@kashmirintelligence.com 📣
