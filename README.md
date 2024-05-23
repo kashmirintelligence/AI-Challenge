@@ -37,7 +37,7 @@ There are 2 datasets we have selected for this exercise, feel free to explore an
 python src/utils/download_yfinance_data.py AAPL
 ```
 
-This will download the stock data for Apple Inc. (AAPL) from 5 days ago to yesterday in 5-minute intervals, and save it to a CSV file named `AAPL_stock_data.csv`. You can also specify custom dates if needed as shown by the sample command below. Though minimum, 5 days length in 5 minute intervals is what we recommend.
+This will download the stock data for Apple Inc. (AAPL) from 5 days ago to yesterday in 5-minute intervals, and save it to a CSV file named `AAPL_stock_data.csv`. You can also specify custom dates if needed as shown by the sample command below. Though minimum, 60 days length in 5 minute intervals is what we recommend.
 
 ```shell
 python src/utils/download_yfinance_data.py AAPL --start_date 2024-05-17 --end_date 2024-05-22 --interval 5m
