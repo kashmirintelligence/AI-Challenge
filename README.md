@@ -85,4 +85,4 @@ Good luck, and we look forward to seeing your work!
 If you have any questions, or need further clarification of any of the challenges. 
 
 Then please reach out to: 
-📣 sam@kashmirintelligence.com 📣
+📣 nick@kashmirintelligence.com 📣
