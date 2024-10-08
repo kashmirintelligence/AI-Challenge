@@ -22,7 +22,7 @@ The challenge is split into two parts, where first part involves the implementat
 ### Part 1: Time Series Forecasting
 In this part you will:
 
-- Implement a time series forecasting model using any deep learning model of your choice.
+- Implement a time series forecasting model with a transformer backbone and any prediction head design of your choice. (Implemented yourself, do not use externally implemented models) 
 - Train the model on the provided dataset.
 - Test the model to evaluate its performance.
 - Benchmark your model to predict future trend in different time-windows, Select a time window that performs the best.
