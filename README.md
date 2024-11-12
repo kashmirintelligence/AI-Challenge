@@ -43,13 +43,7 @@ This will download the stock data for Apple Inc. (AAPL) from 5 days ago to yeste
 python src/utils/download_yfinance_data.py AAPL --start_date 2024-05-17 --end_date 2024-05-22 --interval 5m
 ```
 
-2. **ETT (Electricity Transformer Temperature) [Dataset](https://github.com/zhouhaoyi/ETDataset)**: is designed for long sequence time-series forecasting, covering data from July 2016 to July 2018. It includes datasets for small, large, and full scales, containing measurements such as load and oil temperature for multiple transformer stations. Obviously for this use case, **only focus on the small version of the data**. To download it a python script has already been written for you. You can download the data via the following:
-
-```shell
-python src/utils/download_ett_small.py
-```
-
-This will download the four CSV files `(ETTh1.csv, ETTh2.csv, ETTm1.csv, ETTm2.csv)` from the specified [GitHub repository](https://github.com/zhouhaoyi/ETDataset) and save them in the `ETT-small` directory. Adjust the script if you need to download files from different locations or add additional functionality.
+2. **CO2 Concentration Estimation**: This task utilized a publicly available dataset from Imperial College’s Carbon Capture Pilot Plant, accessible through the [orginal repositry](https://github.com/tonyzyl/CO2-Soft-sensor-for-a-carbon-capture-pilot-plant/tree/main/data/withLabel). This task requires estimating the CO2 concentration at six distinct sampling points in the absorber. For more details on the dataset and preprocessing steps, please refer to the [official notebook](https://github.com/tonyzyl/CO2-Soft-sensor-for-a-carbon-capture-pilot-plant/blob/main/Estimate_CO2_profile.ipynb). If you choose to proceed with this task, we strongly recommend using `140207_1.xlsx` as the test dataset, while the remaining files serve as the training dataset.
 
 ---
 
